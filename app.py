@@ -60,4 +60,4 @@ if __name__ == "__main__":
     # Cloud Run จะกำหนด PORT มาให้เอง ถ้าไม่มีให้ใช้ 8080 เป็นค่าเริ่มต้น
     port = int(os.environ.get("PORT", 8080))
     app.run(host="0.0.0.0", port=port)
-    #-----------
+    #----
